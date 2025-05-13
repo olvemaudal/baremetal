@@ -40,4 +40,15 @@ While experimenting with the CPUlator you may just write or paste stuff directly
 
 into the editor and click compile and load, and then continue.
 
-## 
+## Bare metal coding on the RP2040
+
+We will now use a public github repo to demonstrate how to create a simple blinky app on the Raspberry Pi Pico RP2040. Try these commands:
+
+    $ git clone https://github.com/vxj9800/bareMetalRP2040.git
+    $ cd bareMetalRP2040
+    $ git submodule update --init
+    $ cd 01_bootupBlinky/
+    $ make
+    $ ls -al boot2Blinky.uf2
+
+Plug in the Pico to your USB port while holding the BOOTSEL button so that it shows up as a USB storage. Then copy the uf2 file onto the drive, and watch the Pico reboot and start to blink.
