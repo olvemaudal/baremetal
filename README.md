@@ -20,7 +20,7 @@ Try something like this:
     $ git clone https://github.com/olvemaudal/baremetal.git
     $ cd baremetal
     $ docker build -t devbox .
-    $ docker run --rm -it -v  ${PWD}:/workspace devbox
+    $ docker run --rm -it -v ${PWD}:/workspace devbox
 
 ## Compile and run the display demo app on the de1soc simulator
 
