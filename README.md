@@ -52,3 +52,17 @@ We will now use a public github repo to demonstrate how to create a simple blink
     $ ls -al boot2Blinky.uf2
 
 Plug in the Pico to your USB port while holding the BOOTSEL button so that it shows up as a USB storage. Then copy the uf2 file onto the drive, and watch the Pico reboot and start to blink.
+
+## Links and resources
+
+- HackadayU: Raspberry Pi Pico and RP2040 (YouTube)
+- RP2040 - Introduction to Assembly Language (YouTube)
+- https://github.com/raspberrypi/pico-bootrom-rp2040
+- https://github.com/raspberrypi/pico-sdk
+- https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
+- https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
+- https://cpulator.01xz.net/?sys=arm-de1soc
+- https://fpgacademy.org/Downloads/DE1-SoC_Computer_ARM.pdf
+- https://developer.arm.com/documentation/dui0662/latest/
+- Assembly Language Programming with ARM  https://www.youtube.com/watch?v=gfmRrPjnEw4
+- https://godbolt.org/ 
