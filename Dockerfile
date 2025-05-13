@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
     git \
     python3 \
     nano \
-    vi \
+    vim \
     ed \
     && apt-get clean
 
