@@ -53,6 +53,17 @@ We will now use a public github repo to demonstrate how to create a simple blink
 
 Plug in the Pico to your USB port while holding the BOOTSEL button so that it shows up as a USB storage. Then copy the uf2 file onto the drive, and watch the Pico reboot and start to blink.
 
+## Compile, link and run primedemo
+
+This is an attempt to show a complete C program, including testing and linking. Try these commands:
+
+    $ gcc -c primelib.c
+    $ gcc primelib_tests.c primelib.o
+    $ ./a.out
+    All tests passed
+    $ gcc -o primedemo primedemo.c primelib.o
+    $ ./primedemo
+
 ## Links and resources
 
 - HackadayU: Raspberry Pi Pico and RP2040 (YouTube)
