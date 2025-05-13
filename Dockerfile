@@ -8,6 +8,10 @@ RUN apt-get update && apt-get install -y \
 
 RUN apt-get update && apt-get install -y \
     git \
+    python3 \
+    nano \
+    vi \
+    ed \
     && apt-get clean
 
 WORKDIR /workspace
