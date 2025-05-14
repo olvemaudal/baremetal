@@ -6,7 +6,7 @@ static bool is_divisible(int numerator, int denominator) {
     return numerator % denominator == 0;
 }
 
-bool isprime(int number)
+static bool isprime(int number)
 {
     if (number < 2)
         return false;
@@ -19,7 +19,7 @@ bool isprime(int number)
     return true;
 }
 
-int count_primes_in_range(int begin, int end)
+static int count_primes_in_range(int begin, int end)
 {
     int count = 0;
     for (int n = begin; n < end; n++) 
