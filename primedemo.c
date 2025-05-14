@@ -10,7 +10,7 @@ int main(void)
     printf("Number of primes in range [%d, %d) is ", lower_bound, upper_bound);
     fflush(stdout);
 
-    int number_of_primes = count_primes(lower_bound, upper_bound);
+    int number_of_primes = count_primes_in_range(lower_bound, upper_bound);
 
     printf("%d\n", number_of_primes);
 

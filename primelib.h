@@ -4,6 +4,6 @@
 #include <stdbool.h>
 
 bool isprime(int number);
-int count_primes(int begin, int end);
+int count_primes_in_range(int begin, int end);
 
 #endif

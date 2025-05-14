@@ -18,7 +18,7 @@ bool isprime(int number)
     return superslow_isprime(number);
 }
     
-int count_primes(int begin, int end)
+int count_primes_in_range(int begin, int end)
 {
     int count = 0;
     for (int n = begin; n < end; n++)
